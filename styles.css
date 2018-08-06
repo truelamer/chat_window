@@ -15,6 +15,7 @@ div#header {
     border-bottom: 3px solid black;
     background: rgba(153, 224, 255, 0.6);
 }
+
 div#chat-info {
     display: flex;
     flex-direction: column;
@@ -23,12 +24,24 @@ div#chat-info {
 }
 
 div#discussion-topic {
+    width: 600px;
+    word-wrap: break-word;
+    line-height: 1;
     font-size: 25px;
 }
+
 div#create-info {
     display: flex;
-    justify-content: space-between;
 }
+
+div#creator-name {
+    flex-grow: 1;
+}
+
+div#creating-date {
+    flex-grow: 3;
+}
+
 div#close {
     width: 16px;
     height: 16px;
@@ -46,6 +59,7 @@ div#messages {
     flex-direction: column;
     justify-content: space-between;
 }
+
 div.message {
     display: flex;
     justify-content: space-around;
@@ -53,11 +67,10 @@ div.message {
 
 div.message-author {
     display: flex;
-    width: 150px;
+    flex-grow: 1;
     justify-content: space-around;
     align-items: center;
     border-right: 1px solid black;
-
 }
 
 div.author-pic {
@@ -68,7 +81,7 @@ div.author-pic {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
+    background: rgba(153, 224, 255, 0.6);
 }
 
 div.message-date {
@@ -76,12 +89,13 @@ div.message-date {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
-    margin-right: 15px;
 }
 
 div.message-text {
-    margin-top: 15px;
+    display: flex;
+    flex-grow: 3;
+    flex-direction: column;
+    align-items: flex-start;
     width: 550px;
 }
 
@@ -89,5 +103,13 @@ div.message-text-text {
     border: 2px solid black;
     background: rgba(136, 197, 225, 0.8);
     word-wrap: break-word;
+}
+
+div.hr-hor {
+    width: 10px;
+}
+
+div.hr-vert {
+    height: 10px;
 }
 
