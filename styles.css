@@ -108,7 +108,6 @@ div.message-text {
 }
 
 div.message-text-text {
-    margin-top: 5px;
     border: 2px solid black;
     background: rgba(136, 197, 225, 0.8);
     word-wrap: break-word;
