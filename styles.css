@@ -73,7 +73,8 @@ div.message-author {
     justify-content: space-around;
     align-items: center;
     border-right: 1px solid black;
-    padding-top: 10px ;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 div.author-pic {
@@ -107,6 +108,7 @@ div.message-text {
 }
 
 div.message-text-text {
+    margin-top: 5px;
     border: 2px solid black;
     background: rgba(136, 197, 225, 0.8);
     word-wrap: break-word;
