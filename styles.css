@@ -102,9 +102,7 @@ div.message-text {
     align-items: flex-start;
     justify-content: center;
     width: 550px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-right: 10px;
+    padding: 7px 10px;
 }
 
 div.message-text-text {
