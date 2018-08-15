@@ -1,0 +1,118 @@
+div#main {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width:800px;
+  height:600px;
+  border: 3px solid black;
+  background: rgb(109, 168, 195);
+}
+
+div#header {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  border: none;
+  border-bottom: 3px solid black;
+  background: rgba(153, 224, 255, 0.6);
+}
+
+div#chat-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+
+div#discussion-topic {
+  width: 600px;
+  word-wrap: break-word;
+  line-height: 1;
+  font-size: 25px;
+}
+
+div#create-info {
+  display: flex;
+}
+
+div#creator-name {
+  flex-grow: 1;
+}
+
+div#creating-date {
+  flex-grow: 3;
+}
+
+div#close {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+div.messages-scroll {
+  height:530px;
+  overflow: auto;
+}
+
+div#messages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 7px;
+}
+
+div.message {
+  display: flex;
+  justify-content: space-around;
+  flex-shrink: 0;
+}
+
+div.message-author {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  align-items: center;
+  border-right: 1px solid black;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+div.author-pic {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(153, 224, 255, 0.6);
+}
+
+div.message-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.message-text {
+  display: flex;
+  flex-grow: 3;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 550px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 10px;
+}
+
+div.message-text-text {
+  border: 2px solid black;
+  background: rgba(136, 197, 225, 0.8);
+  word-wrap: break-word;
+}
+
+div.hr-hor {
+  width: 10px;
+}
